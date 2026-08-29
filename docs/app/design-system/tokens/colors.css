@@ -1,0 +1,28 @@
+:root{
+/* ---- Brand: navy sampled from the supplied logo (#27396C) ---- */
+--navy-900:#101829;--navy-800:#18233f;--navy-700:#1e2c54;--navy-600:#27396c;--navy-500:#3a4d82;--navy-400:#5b6d9d;--navy-300:#94a1c0;--navy-200:#c6cddd;--navy-100:#e3e8f1;--navy-50:#f0f3f8;
+/* ---- Accent: burnished gold. Chosen over red to avoid the "ambulance chaser" read ---- */
+--gold-800:#6d4a0c;--gold-700:#8d6210;--gold-600:#a97a15;--gold-500:#c2911f;--gold-400:#d8a838;--gold-300:#e7c473;--gold-200:#f2ddb0;--gold-100:#faf0d9;
+/* ---- Ink & neutrals. Ink 900 is the wordmark black sampled from the logo ---- */
+--ink-900:#231f20;--ink-800:#332f30;--ink-700:#4a4546;--ink-600:#635d5c;--ink-500:#7d7674;--ink-400:#a39c98;--ink-300:#c8c1ba;--ink-200:#e0dad2;--ink-100:#efeae3;
+--paper:#faf8f4;--paper-warm:#f4f0e9;--white:#ffffff;
+/* ---- Semantic status (UI only — never for CTAs) ---- */
+--green-600:#1e7a4d;--green-100:#e2f2e9;--red-600:#a5232b;--red-100:#f7e6e6;--amber-600:#b4740c;
+
+/* ================= Semantic aliases ================= */
+--brand:var(--navy-600);--brand-deep:var(--navy-800);--brand-ink:var(--ink-900);
+--accent:var(--gold-600);--accent-strong:var(--gold-700);--accent-soft:var(--gold-100);
+
+--bg-page:var(--paper);--bg-page-alt:var(--paper-warm);--bg-inverse:var(--navy-800);--bg-inverse-deep:var(--navy-900);
+--surface-card:var(--white);--surface-sunken:var(--navy-50);--surface-card-inverse:var(--navy-700);
+
+--text-heading:var(--navy-800);--text-body:var(--ink-800);--text-muted:var(--ink-600);--text-subtle:var(--ink-500);
+--text-on-brand:#ffffff;--text-on-brand-muted:var(--navy-200);--text-on-accent:var(--navy-900);--text-link:var(--navy-600);--text-link-hover:var(--gold-700);
+
+--border-hairline:var(--ink-200);--border-strong:var(--navy-200);--border-on-brand:rgba(255,255,255,.16);
+--rule-accent:var(--gold-500);
+
+--focus-ring:var(--gold-500);
+--figure-color:var(--navy-700);--figure-color-inverse:var(--gold-400);
+--star-color:var(--gold-500);
+}
