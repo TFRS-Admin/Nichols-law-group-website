@@ -52,6 +52,6 @@ jobs:
 
       - name: Check markdown links
         run: |
-          find . -name '*.md' -not -path './.git/*' -print0 | while IFS= read -r -d '' file; do
+          find . -name '*.md' -not -path './.git/*' -not -path './.claude-skill/*' -print0 | while IFS= read -r -d '' file; do
             npx -y markdown-link-check -q "$file"
           done

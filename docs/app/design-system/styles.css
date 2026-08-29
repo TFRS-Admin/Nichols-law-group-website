@@ -1,0 +1,14 @@
+/* The Nichols Law Group — Design System
+   Single entry point. @imports only, in the documented load order
+   (see readme.md § Index, and _ds_manifest.json's globalCssPaths).
+   Import order matters: colors.css must load before typography.css so that
+   --text-body (a color alias) is not shadowed by an unrelated size token —
+   see the note at the top of tokens/typography.css. */
+@import "tokens/fonts.css";
+@import "tokens/colors.css";
+@import "tokens/typography.css";
+@import "tokens/spacing.css";
+@import "tokens/radius.css";
+@import "tokens/elevation.css";
+@import "tokens/motion.css";
+@import "tokens/base.css";

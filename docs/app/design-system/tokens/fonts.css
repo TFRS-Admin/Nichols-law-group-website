@@ -1,0 +1,4 @@
+/* Webfonts — Google Fonts. NOTE: no vendor font binaries were supplied with the
+ brand assets; Archivo (display) + Source Sans 3 (body) are documented substitutions
+ (see readme.md). Both cover Latin Extended, so Spanish accents render from the same files. */
+@import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,600..900;1,600..800&family=Source+Sans+3:ital,wght@0,400..800;1,400..700&display=swap");
