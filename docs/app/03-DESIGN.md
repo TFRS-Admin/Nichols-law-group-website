@@ -2,7 +2,7 @@
 
 ## Approved design inputs
 **Design package:** `docs/app/design-system/` — "The Nichols Law Group — Design System" (DSG handoff, imported 2026-08-29 from the client-supplied Drive zip export).
-**Approved build brief/design:** the top-level Master Build Spec doc (`NicholsBuildSpecMaster.md`, provided for the prototype build) governs copy, page scope, and locked project decisions. Where the two conflict, see Conflicts below.
+**Approved build brief/design:** `docs/app/NicholsBuildSpecMaster.md` (checked into this repo 2026-08-29; provided for the prototype build) governs copy, page scope, and locked project decisions. Where the two conflict, see Conflicts below.
 
 ## Implementation rule
 The approved design is a specification, not necessarily production code. Preserve its visual language, hierarchy, states, responsive behavior, components, content intent, and interaction patterns while implementing appropriately in Base44.

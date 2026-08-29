@@ -1,6 +1,6 @@
 *,*::before,*::after{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%}
-body{margin:0;background:var(--bg-page);color:var(--text-body);font-family:var(--font-body);font-size:var(--text-body);line-height:var(--leading-body);font-synthesis-weight:none;-webkit-font-smoothing:antialiased;text-wrap:pretty}
+body{margin:0;background:var(--bg-page);color:var(--text-body);font-family:var(--font-body);font-size:var(--text-body-size);line-height:var(--leading-body);font-synthesis-weight:none;-webkit-font-smoothing:antialiased;text-wrap:pretty}
 h1,h2,h3,h4{font-family:var(--font-display);color:var(--text-heading);font-weight:var(--weight-bold);line-height:var(--leading-heading);letter-spacing:var(--tracking-display);margin:0 0 var(--space-4)}
 h1{font-size:var(--text-d2);line-height:var(--leading-display)}h2{font-size:var(--text-d3)}h3{font-size:var(--text-h2)}h4{font-size:var(--text-h4)}
 p{margin:0 0 var(--space-4);max-width:var(--measure-body)}

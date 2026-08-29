@@ -1,3 +1,8 @@
+/* --text-body-size (not --text-body) is deliberate: colors.css already defines
+   --text-body as a semantic color alias (var(--ink-800)). Reusing that name here
+   for a font-size would silently overwrite the color value on import, since
+   both files load into the same :root and base.css consumes --text-body for
+   both `color` and `font-size` on the same rule. */
 :root{
 --font-display:"Archivo","Helvetica Neue",Helvetica,Arial,sans-serif;
 --font-body:"Source Sans 3","Helvetica Neue",Helvetica,sans-serif;
@@ -8,14 +13,14 @@
 --text-d2:clamp(2rem,4vw,3.25rem);
 --text-d3:clamp(1.625rem,3vw,2.375rem);
 --text-h1:1.875rem;--text-h2:1.5rem;--text-h3:1.25rem;--text-h4:1.125rem;
---text-lead:1.1875rem;--text-body:1.0625rem;--text-sm:0.9375rem;--text-xs:0.8125rem;
+--text-lead:1.1875rem;--text-body-size:1.0625rem;--text-sm:0.9375rem;--text-xs:0.8125rem;
 --text-eyebrow:0.75rem;
 
 --weight-regular:400;--weight-medium:500;--weight-semibold:600;--weight-bold:700;--weight-black:800;
 
 --leading-figure:0.92;--leading-display:1.06;--leading-heading:1.2;--leading-body:1.6;--leading-tight:1.35;
 
---tracking-figure:-0.025em;--tracking-display:-0.02em;--tracking-normal:0;--tracking-eyebrow:0.01em;--tracking-caps:0.005em;
+--tracking-figure:-0.025em;--tracking-display:-0.02em;--tracking-normal:0;--tracking-eyebrow:0.14em;--tracking-caps:0.005em;
 
 --measure-body:64ch;--measure-lead:46ch;--measure-display:22ch;
 }
